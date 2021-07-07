@@ -1,3 +1,97 @@
+header {
+  width: 100%;
+  max-width: 1500px; }
+  header .contenedor {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 150px;
+    background: #000; }
+    header .contenedor .menu {
+      padding: 10px;
+      margin: 15px;
+      background: #ccc;
+      border-radius: 30px;
+      height: 30px; }
+      header .contenedor .menu a {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        padding: 10px; }
+    header .contenedor .description {
+      padding: 10px;
+      margin: 15px;
+      background: #ccc;
+      border-radius: 30px;
+      height: 30px; }
+      header .contenedor .description h2 {
+        text-decoration: none;
+        color: #000;
+        font-size: 15px;
+        padding: 10px; }
 
+* {
+  box-sizing: border-box;
+  moz-box-sizing: border-box; }
+
+body {
+  font-size: 10px;
+  font-family: "Arial"; }
+
+.main .contenedor {
+  margin-bottom: 60px; }
+  .main .contenedor .contenedor-trabajos {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: rows;
+    flex-wrap: wrap; }
+    .main .contenedor .contenedor-trabajos .trabajo {
+      width: 23%;
+      margin: 10px 20px; }
+      .main .contenedor .contenedor-trabajos .trabajo .thumb {
+        width: 100%; }
+        .main .contenedor .contenedor-trabajos .trabajo .thumb img {
+          width: 100%;
+          border-radius: 40px; }
+    .main .contenedor .contenedor-trabajos .informacion {
+      background: #ccc; }
+      .main .contenedor .contenedor-trabajos .informacion p {
+        font-size: 20px;
+        color: #003;
+        text-align: center;
+        margin: 5px 0px;
+        padding: 20px; }
+
+.main .contenedor {
+  width: 100%;
+  max-width: 1500px;
+  display: grid;
+  grid-gap: 20px;
+  background: #ccc;
+  grid-template-column: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto); }
+  .main .contenedor .header {
+    grid-template-column: -1;
+    background: #ff0000; }
+
+footer .contenedor {
+  display: flex;
+  justify-content: center;
+  flex-direccion: rows;
+  background: #000;
+  width: 100%;
+  max-width: 1500px;
+  height: 250px; }
+  footer .contenedor .redes a {
+    color: #d0ff00;
+    font-size: 20px;
+    padding: 30px; }
+  footer .contenedor .redes:hover {
+    background: #fff; }
 
 /*# sourceMappingURL=main.css.map */
